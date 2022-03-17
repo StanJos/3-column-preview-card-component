@@ -1,0 +1,169 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.card {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 250px;
+  width: 921px;
+  height: 500px;
+  border-radius: 10px;
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    width: 307px;
+    border-radius: 15px 0px 0px 15px;
+    svg {
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    h1 {
+      margin-left: 30px;
+      margin-top: 30px;
+      color: hsl(0, 0%, 95%);
+      font-family: 'Big Shoulders Display', cursive;
+      font-size: 38px;
+    }
+    p {
+      color: hsla(0, 0%, 100%, 0.75);
+      margin-left: 30px;
+      margin-top: 30px;
+      font-size: 15px;
+      width: 205px;
+      height: 118px;
+      line-height: 25px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+    }
+    button {
+      margin-left: 30px;
+      margin-top: 90px;
+      border-radius: 35px;
+      padding: 16px 40px;
+      border: none;
+      color: hsl(31, 77%, 52%);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+    }
+  }
+  .suvs {
+    background-color: hsl(184, 100%, 22%);
+    width: 307px;
+
+    svg {
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    h1 {
+      margin-left: 30px;
+      margin-top: 30px;
+      color: hsl(0, 0%, 95%);
+      font-family: 'Big Shoulders Display', cursive;
+      font-size: 38px;
+    }
+    p {
+      color: hsla(0, 0%, 100%, 0.75);
+      margin-left: 30px;
+      margin-top: 30px;
+      font-size: 15px;
+      width: 205px;
+      height: 118px;
+      line-height: 25px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+    }
+    button {
+      margin-left: 30px;
+      margin-top: 90px;
+      border-radius: 35px;
+      padding: 16px 40px;
+      border: none;
+      color: hsl(179, 100%, 13%);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+    }
+  }
+
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 307px;
+    border-radius: 0px 15px 15px 0px;
+    svg {
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    h1 {
+      margin-left: 30px;
+      margin-top: 30px;
+      color: hsl(0, 0%, 95%);
+      font-family: 'Big Shoulders Display', cursive;
+      font-size: 38px;
+    }
+    p {
+      color: hsla(0, 0%, 100%, 0.75);
+      margin-left: 30px;
+      margin-top: 30px;
+      font-size: 15px;
+      width: 205px;
+      height: 118px;
+      line-height: 25px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+    }
+    button {
+      margin-left: 30px;
+      margin-top: 90px;
+      border-radius: 35px;
+      padding: 16px 40px;
+      border: none;
+      color: hsl(179, 100%, 13%);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 25px;
+
+    .sedans {
+      width: 330px;
+      border-radius: 15px 15px 0px 0px;
+      svg {
+        width: 100px;
+      }
+      p {
+        width: 217px;
+      }
+      button {
+        position: relative;
+        bottom: 50px;
+      }
+    }
+    .suvs {
+      width: 330px;
+      p {
+        width: 217px;
+      }
+      button {
+        position: relative;
+        bottom: 50px;
+      }
+    }
+    .luxury {
+      width: 330px;
+      border-radius: 0px 0px 15px 15px;
+
+      p {
+        width: 217px;
+      }
+      button {
+        position: relative;
+        bottom: 50px;
+      }
+    }
+  }
+}

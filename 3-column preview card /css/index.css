@@ -1,0 +1,167 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.card {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 250px;
+  width: 921px;
+  height: 500px;
+  border-radius: 10px;
+}
+.card .sedans {
+  background-color: #e38826;
+  width: 307px;
+  border-radius: 15px 0px 0px 15px;
+}
+.card .sedans svg {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.card .sedans h1 {
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 38px;
+}
+.card .sedans p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 15px;
+  width: 205px;
+  height: 118px;
+  line-height: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.card .sedans button {
+  margin-left: 30px;
+  margin-top: 90px;
+  border-radius: 35px;
+  padding: 16px 40px;
+  border: none;
+  color: #e38826;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+.card .suvs {
+  background-color: #006970;
+  width: 307px;
+}
+.card .suvs svg {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.card .suvs h1 {
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 38px;
+}
+.card .suvs p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 15px;
+  width: 205px;
+  height: 118px;
+  line-height: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.card .suvs button {
+  margin-left: 30px;
+  margin-top: 90px;
+  border-radius: 35px;
+  padding: 16px 40px;
+  border: none;
+  color: #004241;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+.card .luxury {
+  background-color: #004241;
+  width: 307px;
+  border-radius: 0px 15px 15px 0px;
+}
+.card .luxury svg {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.card .luxury h1 {
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 38px;
+}
+.card .luxury p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 15px;
+  width: 205px;
+  height: 118px;
+  line-height: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.card .luxury button {
+  margin-left: 30px;
+  margin-top: 90px;
+  border-radius: 35px;
+  padding: 16px 40px;
+  border: none;
+  color: #004241;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 25px;
+  }
+  .card .sedans {
+    width: 330px;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .card .sedans svg {
+    width: 100px;
+  }
+  .card .sedans p {
+    width: 217px;
+  }
+  .card .sedans button {
+    position: relative;
+    bottom: 50px;
+  }
+  .card .suvs {
+    width: 330px;
+  }
+  .card .suvs p {
+    width: 217px;
+  }
+  .card .suvs button {
+    position: relative;
+    bottom: 50px;
+  }
+  .card .luxury {
+    width: 330px;
+    border-radius: 0px 0px 15px 15px;
+  }
+  .card .luxury p {
+    width: 217px;
+  }
+  .card .luxury button {
+    position: relative;
+    bottom: 50px;
+  }
+}/*# sourceMappingURL=index.css.map *//
